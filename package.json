@@ -1,0 +1,18 @@
+{
+  "name": "js-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^4.4.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "jsdom": "^20.0.1"
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate Sum</title>
+
+    <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js" ></script>
+</head>
+<body>
+
+    <div>
+        <label for="first">First Number:</label>
+        <input type="text" id="first" name="first"><br><br>
+        <label for="second">Second name:</label>
+        <input type="text" id="second" name="second"><br><br>
+        <input id="add-numbers" type="submit" value="Add Numbers">
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <span id="output"></span>
+    </div>
+
+    <script>
+
+        $( "#add-numbers" ).click(function() {
+
+            let numFirst = $("#first").val();
+            let numSecond = $("#second").val();
+
+            let total = parseInt( numFirst ) + parseInt(  numSecond );
+
+            $("#output").text(total) ;
+
+        });
+
+    </script>
+
+</body>
+</html>
