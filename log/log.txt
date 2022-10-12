@@ -1,13 +1,10 @@
-10/12/2022, 2:34:19 PM Initial Suite
-10/12/2022, 2:34:19 PM 1 Checking file exists
-10/12/2022, 2:34:19 PM 2 Appending to the body
-10/12/2022, 2:34:19 PM 1 true
-10/12/2022, 2:34:19 PM 2
-                             GeeksforGeeks
+Initial Spec : Checking file exists : 10/12/2022, 7:37:06 PM : true
+Initial Spec : Appending to the template body : 10/12/2022, 7:37:06 PM : 
+                             HEADER-TEMPLE 
                         
                     Is a cool Website
-10/12/2022, 2:34:19 PM 2
-                            <h1 class="heading"> GeeksforGeeks</h1>
+Initial Spec : Appending to the template body : 10/12/2022, 7:37:06 PM : 
+                            <h1 class="heading"> HEADER-TEMPLE </h1>
                         
                     <p>Is a cool Website</p>
-10/12/2022, 2:34:19 PM 2 true
+Initial Spec : Appending to the template body : 10/12/2022, 7:37:06 PM : true
