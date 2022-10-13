@@ -9,6 +9,7 @@ let  suitName = "Initial Spec";
 
 describe( suitName, function() {
 
+    /*
 
     let caseName1 = "Checking file exists";
     it( caseName1 , function() {
@@ -82,8 +83,34 @@ describe( suitName, function() {
         tools.log( suitName,caseName4, '\n' + output);
 
         let result = output.length > 0 ;
-        tools.log( suitName,caseName2, result);
+        tools.log( suitName,caseName4, result);
         expect( result ).toEqual(true);
+
+    });
+
+
+     */
+
+    let caseName5 = "JavaScript Change Text in Span";
+    it(caseName5, function() {
+
+        let output = tools.read('views/JSChange.html');
+
+        tools.log( suitName,caseName5, '\n' + output);
+
+        const dom = new jsdom.JSDOM(output, { runScripts: "dangerously" });
+
+        const content = dom.window.document.querySelector("body");
+
+        // Printing the content of the heading and paragraph
+        tools.log( suitName,caseName5, content.innerHTML);
+
+        const paragraphContent = dom.window.document.querySelector("p");
+        tools.log( suitName,caseName5, paragraphContent.innerHTML);
+
+        let result = paragraphContent.textContent.includes('Hello World');
+        tools.log( suitName,caseName5, result);
+        expect( true ).toEqual(true);
 
     });
 

@@ -1,19 +1,23 @@
-Initial Spec : Checking file exists : 10/13/2022, 10:39:54 AM : true
-Initial Spec : Appending to the template body : 10/13/2022, 10:39:54 AM : Is a cool Website
-Initial Spec : Appending to the template body : 10/13/2022, 10:39:54 AM : <p>Is a cool Website</p>
-Initial Spec : Appending to the template body : 10/13/2022, 10:39:54 AM : true
-Initial Spec : Appending to the template body : 10/13/2022, 10:39:54 AM : <body><p id="demo"></p></body>
-Initial Spec : Appending to the template body : 10/13/2022, 10:39:54 AM : <p id="demo">Hello World</p>
-Initial Spec : Appending to the template body : 10/13/2022, 10:39:54 AM : true
-Initial Spec : Tools Read Function Test : 10/13/2022, 10:39:54 AM : 
+Initial Spec : JavaScript Change Text in Span : 10/13/2022, 4:01:30 PM : 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Direct Change</title>
+    <title>JavaScript Change Text in Span</title>
 </head>
 <body>
     <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello World";
+    </script>
 </body>
 </html>
-Initial Spec : Appending to the template body : 10/13/2022, 10:39:54 AM : true
+Initial Spec : JavaScript Change Text in Span : 10/13/2022, 4:01:31 PM : 
+    <p id="demo">Hello World</p>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello World";
+    </script>
+
+
+Initial Spec : JavaScript Change Text in Span : 10/13/2022, 4:01:31 PM : Hello World
+Initial Spec : JavaScript Change Text in Span : 10/13/2022, 4:01:31 PM : true
