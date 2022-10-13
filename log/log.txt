@@ -1,4 +1,7 @@
-Initial Spec : Appending to the template body : 10/13/2022, 9:06:58 AM : Is a cool Website
-Initial Spec : Appending to the template body : 10/13/2022, 9:06:58 AM : <p>Is a cool Website</p>
-Initial Spec : Appending to the template body : 10/13/2022, 9:06:58 AM : true
-Initial Spec : Checking file exists : 10/13/2022, 9:06:58 AM : true
+Initial Spec : Appending to the template body : 10/13/2022, 10:17:07 AM : <body><p id="demo"></p></body>
+Initial Spec : Appending to the template body : 10/13/2022, 10:17:07 AM : <p id="demo">Hello World</p>
+Initial Spec : Appending to the template body : 10/13/2022, 10:17:07 AM : true
+Initial Spec : Appending to the template body : 10/13/2022, 10:17:07 AM : Is a cool Website
+Initial Spec : Appending to the template body : 10/13/2022, 10:17:07 AM : <p id="demo"></p><p>Is a cool Website</p>
+Initial Spec : Appending to the template body : 10/13/2022, 10:17:07 AM : true
+Initial Spec : Checking file exists : 10/13/2022, 10:17:07 AM : true

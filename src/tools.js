@@ -33,7 +33,20 @@ class Tools{
 
     };
 
-};
+    read(filePath){
+        try {
+            const data = this.fs.readFileSync(filePath, 'utf8');
+
+            console.log(data);
+            this.page = data;
+            return data;
+        } catch (err) {
+            console.error(err);
+            return err;
+        }
+    };
+
+}
 
 
 
