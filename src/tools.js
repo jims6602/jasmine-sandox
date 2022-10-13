@@ -1,13 +1,16 @@
 class Tools{
 
-    constructor(fs, logName) {
+    constructor(fs, logName, page) {
         this.fs = fs;
         this.logName = logName;
-        this.page = `<!DOCTYPE html>
+
+        if(typeof(page) != "undefined"){
+            this.page = `<!DOCTYPE html>
                         <body>
-                            <h1 class="heading"> HEADER-TEMPLE </h1>
-                        </body>
-                    `;
+                            <h1 class="heading">Hello World</h1>
+                        </body>`;
+        }
+
     }
 
     getPage (){ return this.page;}

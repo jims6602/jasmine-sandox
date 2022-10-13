@@ -1,10 +1,4 @@
-Initial Spec : Checking file exists : 10/12/2022, 7:37:06 PM : true
-Initial Spec : Appending to the template body : 10/12/2022, 7:37:06 PM : 
-                             HEADER-TEMPLE 
-                        
-                    Is a cool Website
-Initial Spec : Appending to the template body : 10/12/2022, 7:37:06 PM : 
-                            <h1 class="heading"> HEADER-TEMPLE </h1>
-                        
-                    <p>Is a cool Website</p>
-Initial Spec : Appending to the template body : 10/12/2022, 7:37:06 PM : true
+Initial Spec : Appending to the template body : 10/13/2022, 9:06:58 AM : Is a cool Website
+Initial Spec : Appending to the template body : 10/13/2022, 9:06:58 AM : <p>Is a cool Website</p>
+Initial Spec : Appending to the template body : 10/13/2022, 9:06:58 AM : true
+Initial Spec : Checking file exists : 10/13/2022, 9:06:58 AM : true
