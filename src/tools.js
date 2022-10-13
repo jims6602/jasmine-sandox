@@ -37,7 +37,7 @@ class Tools{
         try {
             const data = this.fs.readFileSync(filePath, 'utf8');
 
-            console.log(data);
+            //console.log(data);
             this.page = data;
             return data;
         } catch (err) {

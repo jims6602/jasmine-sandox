@@ -9,10 +9,11 @@ let  suitName = "Initial Spec";
 
 describe( suitName, function() {
 
+
     let caseName1 = "Checking file exists";
     it( caseName1 , function() {
 
-        let result = fs.existsSync('views/AddNumbers.html');
+        let result = fs.existsSync('views/DirectChange.html');
         tools.log(suitName,caseName1,result);
 
         expect( result).toEqual(true);
@@ -66,6 +67,21 @@ describe( suitName, function() {
         tools.log( suitName,caseName2, content.innerHTML);
 
         let result = content.textContent.includes('Hello World');
+        tools.log( suitName,caseName2, result);
+        expect( result ).toEqual(true);
+
+    });
+
+
+
+    let caseName4 = "Tools Read Function Test";
+    it(caseName4, function() {
+
+        let output = tools.read('views/DirectChange.html');
+
+        tools.log( suitName,caseName4, '\n' + output);
+
+        let result = output.length > 0 ;
         tools.log( suitName,caseName2, result);
         expect( result ).toEqual(true);
 
