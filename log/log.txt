@@ -1,4 +1,4 @@
-Initial Spec : JavaScript Change Text in Span : 10/13/2022, 4:01:30 PM : 
+Initial Spec : JavaScript Change Text in Paragraph : 10/13/2022, 4:03:43 PM : 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,12 +12,46 @@ Initial Spec : JavaScript Change Text in Span : 10/13/2022, 4:01:30 PM :
     </script>
 </body>
 </html>
-Initial Spec : JavaScript Change Text in Span : 10/13/2022, 4:01:31 PM : 
+Initial Spec : JavaScript Change Text in Paragraph : 10/13/2022, 4:03:43 PM : 
     <p id="demo">Hello World</p>
     <script>
         document.getElementById("demo").innerHTML = "Hello World";
     </script>
 
 
-Initial Spec : JavaScript Change Text in Span : 10/13/2022, 4:01:31 PM : Hello World
-Initial Spec : JavaScript Change Text in Span : 10/13/2022, 4:01:31 PM : true
+Initial Spec : JavaScript Change Text in Paragraph : 10/13/2022, 4:03:43 PM : Hello World
+Initial Spec : JavaScript Change Text in Paragraph : 10/13/2022, 4:03:43 PM : true
+Initial Spec : Appending to the template body : 10/13/2022, 4:03:43 PM : <body><p id="demo"></p></body>
+Initial Spec : Appending to the template body : 10/13/2022, 4:03:43 PM : <p id="demo">Hello World</p>
+Initial Spec : Appending to the template body : 10/13/2022, 4:03:43 PM : true
+Initial Spec : Tools Read Function Test : 10/13/2022, 4:03:43 PM : 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Direct Change Paragraph tag with Spec Jquery</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello World";
+    </script>
+</body>
+</html>
+Initial Spec : Tools Read Function Test : 10/13/2022, 4:03:43 PM : true
+Initial Spec : Checking file exists : 10/13/2022, 4:03:43 PM : true
+Initial Spec : Appending to the template body : 10/13/2022, 4:03:43 PM : 
+    
+    
+        document.getElementById("demo").innerHTML = "Hello World";
+    
+
+Is a cool Website
+Initial Spec : Appending to the template body : 10/13/2022, 4:03:43 PM : 
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello World";
+    </script>
+
+<p>Is a cool Website</p>
+Initial Spec : Appending to the template body : 10/13/2022, 4:03:43 PM : true

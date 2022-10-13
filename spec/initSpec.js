@@ -9,7 +9,6 @@ let  suitName = "Initial Spec";
 
 describe( suitName, function() {
 
-    /*
 
     let caseName1 = "Checking file exists";
     it( caseName1 , function() {
@@ -88,10 +87,7 @@ describe( suitName, function() {
 
     });
 
-
-     */
-
-    let caseName5 = "JavaScript Change Text in Span";
+    let caseName5 = "JavaScript Change Text in Paragraph";
     it(caseName5, function() {
 
         let output = tools.read('views/JSChange.html');
